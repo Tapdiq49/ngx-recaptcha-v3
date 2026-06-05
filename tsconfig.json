@@ -1,0 +1,39 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2022",
+    "module": "es2020",
+    "lib": ["es2022", "dom"],
+    "esModuleInterop": true,
+    "paths": {
+      "ngx-recaptcha-v3": ["projects/ngx-recaptcha-v3/src/public-api.ts"],
+      "ngx-recaptcha-v3/core": ["projects/ngx-recaptcha-v3/core/src/public-api.ts"],
+      "ngx-recaptcha-v3/v2": ["projects/ngx-recaptcha-v3/v2/src/public-api.ts"],
+      "ngx-recaptcha-v3/v3": ["projects/ngx-recaptcha-v3/v3/src/public-api.ts"],
+      "ngx-recaptcha-v3/enterprise": ["projects/ngx-recaptcha-v3/enterprise/src/public-api.ts"],
+      "ngx-recaptcha-v3/signals": ["projects/ngx-recaptcha-v3/signals/src/public-api.ts"],
+      "ngx-recaptcha-v3/forms": ["projects/ngx-recaptcha-v3/forms/src/public-api.ts"],
+      "ngx-recaptcha-v3/testing": ["projects/ngx-recaptcha-v3/testing/src/public-api.ts"]
+    }
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
