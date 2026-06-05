@@ -2,6 +2,8 @@
 
 A production-grade, enterprise-ready, tree-shakable Angular library for integrating Google reCAPTCHA v2 (Checkbox & Invisible), v3, and Enterprise. Fully compatible with Angular 12 through 22, SSR‑safe (Universal), and native Angular Signals‑ready.
 
+👉 **[Interactive Live Demo (Playground)](https://tapdiq49.github.io/ngx-recaptcha-v3/)**
+
 ---
 
 ## Key Features
