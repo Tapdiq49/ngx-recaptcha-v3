@@ -34,9 +34,5 @@
     "tslib": "^2.3.0"
   },
   "author": "",
-  "license": "MIT",
-  "files": [
-    "README.md",
-    "CHANGELOG.md"
-  ]
+  "license": "MIT"
 }
