@@ -1,6 +1,6 @@
 {
   "name": "ngx-recaptcha-v3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A modern, standalone Google reCAPTCHA library for Angular supporting v2, v3, enterprise, reactive forms, and signals. Fully compatible with Angular versions 12–22",
   "repository": {
     "type": "git",
@@ -34,9 +34,5 @@
     "tslib": "^2.3.0"
   },
   "author": "",
-  "license": "MIT",
-  "files": [
-    "README.md",
-    "CHANGELOG.md"
-  ]
+  "license": "MIT"
 }
