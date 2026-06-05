@@ -6,11 +6,13 @@
         "ng": "ng",
         "start": "ng serve",
         "build": "ng build ngx-recaptcha-v3 && node -e \"const fs = require('fs'); if(fs.existsSync('README.md')) fs.copyFileSync('README.md', 'dist/ngx-recaptcha-v3/README.md'); if(fs.existsSync('CHANGELOG.md')) fs.copyFileSync('CHANGELOG.md', 'dist/ngx-recaptcha-v3/CHANGELOG.md');\"",
+        "build:playground": "ng build playground --base-href /ngx-recaptcha-v3/",
         "watch": "ng build ngx-recaptcha-v3 --watch",
         "test": "jest"
     },
     "dependencies": {
         "@angular/animations": "^22.0.0",
+        "@angular/build": "^22.0.0",
         "@angular/common": "^22.0.0",
         "@angular/compiler": "^22.0.0",
         "@angular/core": "^22.0.0",
