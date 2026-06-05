@@ -49,8 +49,12 @@ export class RecaptchaV3Service {
 
             grecaptchaObj.ready(() => {
               grecaptchaObj.execute(siteKey, { action })
-                .then((token: string) => {
+                .then((token: string | null | undefined) => {
                   this.ngZone.run(() => {
+                    if (!token) {
+                      subscriber.error(new Error('Google reCAPTCHA returned null/undefined token.'));
+                      return;
+                    }
                     subscriber.next(token);
                     subscriber.complete();
                   });
